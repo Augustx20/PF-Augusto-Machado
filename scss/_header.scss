@@ -1,0 +1,35 @@
+/** Nav SCSS**/
+.navbar{  
+
+    ul{
+        color: $color-secundario;
+        border-radius: 4%;
+        background-color: #C490E4;
+        margin: 1vh;
+        padding: 0.5vh;
+    }
+        li{
+        text-align: center;
+        text-decoration: underline ;
+        letter-spacing: 0.1vh;
+        text-decoration: none;
+        
+    }
+        
+            a{
+            &:hover{
+                transition: 0.20s;
+                background-color: $color-secundario;
+            }
+            }
+        
+        
+         }
+         .logotipo{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            border: 3px solid black;
+            top:1px;
+            left: 20px;
+        }

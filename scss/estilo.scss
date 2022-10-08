@@ -1,0 +1,264 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: $tipografia-principal;
+}
+
+.body_index{
+    Background-image: url(../imagen/pexels-amanda-hemphill-7440271.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/** BoxN1 SCSS **/
+.boxN1{
+    padding-bottom: 20vh;
+    display: inline-block;
+    width: 96%;
+    height: auto;
+    padding-top: 20vh;
+
+    .boxN1__h1{
+        font-size: 12vh;
+        color: $color-estandar;
+        word-spacing: 1.5vh;
+        letter-spacing: 1vh;
+        top: 3vh; 
+        margin-left: 5vh;
+        font-family: $tipografia-secundario;
+        font-weight: bold;
+        text-decoration: none;
+        cursor:cell;
+    }
+        .boxN1__parrafo__p{
+            color: $color-estandar;
+            padding: 10px;
+            font-size:  40px;
+            letter-spacing: 0.5px;
+            text-align: justify;
+            font-weight: bold;
+            font: bold;
+
+        }
+            .boxN1__parrafo li{
+                 list-style: decimal;
+                font-size: 20px;
+                text-align: justify;
+                color: $color-secundario;
+            }
+
+}
+
+
+/** Imagene SCSS **/
+
+.grilla_Cajan1{
+    background-color: $color-secundario;
+
+    .card1{
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 16px rgba(198,137,198,0.3);
+            transition: 0.30s;
+        }
+
+    }
+    .col img{
+        height: 30vh;
+        
+    }
+.boton{
+    border: 2.9px solid #000000 ;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    display: inline-flex;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $color-estandar;
+         color: $color-secundario;
+         transition: .3s ease all;
+    }
+    .material-symbols-outlined{
+        font-variation-settings:
+        'FILL' 0
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+        height: 1px;
+    }
+}
+}
+
+
+
+/** Pagina Recetas SCSS **/
+.fondoheader{
+    background-color: $color-secundario;
+}
+
+.fondorecetas{
+    background-color: $color-secundario;
+
+}
+.container{
+
+    .cajarecetas1{
+        background-color:#F6C6EA ;
+        display: inline-block;
+        font-size: 1.6vh;
+        border-radius: 0.5%;
+        padding: 10vh;
+
+    h3{
+        font-size: 4vh;
+        margin: 1vh 1vh 1vh 5vh;
+        letter-spacing: 1px;
+        margin-bottom: 4vh;
+        font-family: $tipografia-secundario;
+
+    }
+    }
+    .cajarecetas2{
+        background-color:#C490E4 ;
+        display: inline-block;
+        font-size: 1.6vh;
+        border-radius: 0.5%;
+        padding: 10vh;
+
+        h3{
+            font-size: 4vh;
+            margin: 1vh 1vh 1vh 5vh;
+            letter-spacing: 1px;
+            padding: auto;
+            font-family: $tipografia-secundario;
+
+        }
+    }
+    .imagenes3{
+        height: 25vh;
+        transition: 0.40s;
+        border-radius: 5%;
+        &:hover{
+            height: 27vh;
+        }
+    }
+
+}
+
+/** Pagiasn contactos **/
+.navcolor{
+   background-color:  $color-secundario;
+}
+
+.contactl{
+    background-color: $color-secundario;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+
+/** Pagiasn Nosotros **/
+
+.nosbox{
+    .titulonombre{
+        background-color: $color-terciario;
+        color: $color-letras;
+
+    }
+    li{
+        font: $tipografia-principal;
+        font-size: 1.6vh;
+    }
+    h3{
+        font: $tipografia-secundario;
+        font-size: 4vh;
+        
+    }
+    h4{
+            font: $tipografia-secundario;
+            font-size: 4vh;
+            color: $color-terciario;
+    }
+    h6{
+        font: $tipografia-secundario;
+            font-size: 1.6vh;
+            color: $color-secundario;
+    }
+
+     li span{
+        font: $tipografia-principal;
+        font-size: 1.6vh;
+    }
+}
+
+/** Paginas de Galeria **/
+
+.file_manager .file a:hover .hover,
+.file_manager .file .file-name small{
+    display: block
+}
+.file_manager .file {
+    padding: 1 !important
+}
+
+.file_manager .file .icon{
+    text-align: center
+}
+
+
+.folder {
+    padding: 20px;
+    display: block;
+    color: #777
+}
+
+@media only screen and (max-width: 992px) {
+    .file_manager .nav-tabs {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .file_manager .nav-tabs .nav-item {
+        display: inline-block
+    }
+}
+
+.boxes {
+    border: 0;
+    margin-bottom: 30px;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+
+a:hover {
+    text-decoration:none;
+}
