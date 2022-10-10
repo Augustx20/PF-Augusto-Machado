@@ -57,6 +57,49 @@
 
 }
 
+.block{
+     .block__cajaboxmedios{
+        .block__cajaboxmedios__boxmedios1{
+            padding: 1vh;      
+            .block__cajaboxmedios__parte1{
+                border-radius: 3vh;
+                background-color: $color-secundario;
+                .block__cajaboxmedios__parte1__boxmedios1{
+                    img{
+                        height: 22vh;
+                        border-radius: 2%;
+                    }
+                } 
+                .block__cajaboxmedios__parte1__boxmedios2{
+                    color: $color-letras;
+                    text-align: start;
+                    margin: auto;
+
+                    h3{
+                        font-family: $tipografia-secundario;
+                    }
+                    p{
+                        font-family: $tipografia-principal;
+                    }
+                }
+                
+            } 
+            .block__cajaboxmedios__boxmedios2{
+                    color: $color-letras;
+                    text-align: start;
+                    margin: auto;
+
+                    h3{
+                        font-family: $tipografia-secundario;
+                    }
+                    p{
+                        font-family: $tipografia-principal;
+                    }
+            }
+         }
+         
+     }  
+}
 
 /** Imagene SCSS **/
 

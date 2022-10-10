@@ -130,6 +130,40 @@
   color: #FFF5FD;
 }
 
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 {
+  padding: 1vh;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 {
+  border-radius: 3vh;
+  background-color: #FFF5FD;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios1 img {
+  height: 22vh;
+  border-radius: 2%;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 {
+  color: black;
+  text-align: start;
+  margin: auto;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 h3 {
+  font-family: Alfa Slab One;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__boxmedios2 {
+  color: black;
+  text-align: start;
+  margin: auto;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__boxmedios2 h3 {
+  font-family: Alfa Slab One;
+}
+.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__boxmedios2 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /** Imagene SCSS **/
 .grilla_Cajan1 {
   background-color: #FFF5FD;
