@@ -130,38 +130,96 @@
   color: #FFF5FD;
 }
 
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 {
-  padding: 1vh;
+.block__cajaboxmedios__boxmedios1 {
+  padding-bottom: 2vh;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 {
+.block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 {
   border-radius: 3vh;
   background-color: #FFF5FD;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios1 img {
+.block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios1 img {
   height: 22vh;
   border-radius: 2%;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 {
+.block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 {
   color: black;
-  text-align: start;
-  margin: auto;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 h3 {
+.block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 h3 {
   font-family: Alfa Slab One;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 p {
+.block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__parte1 .block__cajaboxmedios__parte1__boxmedios2 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__boxmedios2 {
-  color: black;
-  text-align: start;
-  margin: auto;
+
+.block__cajaboxmedios__boxmedios2 {
+  border-radius: 3vh;
+  background-color: #FFF5FD;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__boxmedios2 h3 {
+.block__cajaboxmedios__boxmedios2 h3 {
   font-family: Alfa Slab One;
 }
-.block .block__cajaboxmedios .block__cajaboxmedios__boxmedios1 .block__cajaboxmedios__boxmedios2 p {
+.block__cajaboxmedios__boxmedios2 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.block__cajaboxmedios__boxmedios2 img {
+  height: 22vh;
+  border-radius: 2%;
+}
+
+.imagen4 {
+  height: 100vh;
+  padding-top: 80px;
+}
+.imagen4 h1 {
+  text-align: center;
+  padding-bottom: 65px;
+  color: #de83dd;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-family: Alfa Slab One;
+}
+.imagen4 .gallery {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.imagen4 .gallery .gallery__photo {
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: absolute;
+  transition: all 0.2s;
+  z-index: 10;
+  outline-offset: 20px;
+}
+.imagen4 .gallery .gallery__photo:hover {
+  outline: 15px solid #de83dd;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05) translateY(-20px);
+  z-index: 20;
+}
+.imagen4 .gallery .gallery__photo--p1 {
+  top: 0;
+  left: 0;
+}
+.imagen4 .gallery .gallery__photo--p2 {
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.imagen4 .gallery .gallery__photo--p3 {
+  top: 40px;
+  left: 20%;
+}
+.imagen4 .gallery .gallery__photo--p4 {
+  top: 60px;
+  left: 40%;
+}
+.imagen4 .gallery .gallery__photo--p5 {
+  top: 40px;
+  left: 60%;
+  z-index: 2;
 }
 
 /** Imagene SCSS **/
