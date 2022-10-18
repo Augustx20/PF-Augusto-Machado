@@ -101,8 +101,8 @@
 
 }
 .imagen4{
-    height: 100vh;
-    padding-top: 80px;
+    height: 60vh;
+    padding-top: 2vh;
 h1{
     text-align: center;
     padding-bottom: 65px;
@@ -113,14 +113,14 @@ h1{
 
 }
 .gallery {
-    width: 1000px;
+    width: 100vh;
     margin: 0 auto;
     position: relative;
     .gallery__photo {
-        width: 250px;
-        height: 250px;
+        width: 25vh;
+        height: 25vh;
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-        border-radius: 2px;
+        border-radius: 1vh;
       
         position: absolute;
         transition: all 0.2s;
@@ -162,9 +162,45 @@ h1{
   }
 
 }
-  
+  .Blogcomentarios{
+    background-color: $color-secundario;
+    padding: 10vh;
+        h2{
+            font-family: $tipografia-secundario;
+        }
+        p{
+            font-family: $tipografia-principal;
+        }
+        h5{
+            font-family: $tipografia-secundario;
+            font-size: 2.3vh;
+        }
+        img{
+            height: 20vh;
+            width: 20vh;
+            margin: auto;
+            border-radius: 50%;
+        }
 
-/** Imagene SCSS **/
+        .butoncomen{
+            display: flex;
+            position: absolute;
+            right: 10vh;
+            padding: 2vh;
+                button{
+                    background-color:$color-fondo-botones ;
+                    border:0.4vh solid $color-fondo-botones;
+                    border-radius: 0.8vh;
+                    letter-spacing: 2%;
+                    font-size: 2vh;
+                    font-family: $tipografia-principal;
+                    color: $color-letras-claros;
+                    padding: 0.5vh;
+                }
+        }
+  }
+
+/** Imagen SCSS **/
 
 .grilla_Cajan1{
     background-color: $color-secundario;
