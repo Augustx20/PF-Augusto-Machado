@@ -242,6 +242,11 @@ h1{
 
 
 /** Pagina Recetas SCSS **/
+
+.heads{
+
+    background-color: $color-secundario ;
+}
 .fondoheader{
     background-color: $color-secundario;
 }
@@ -294,6 +299,7 @@ h1{
     }
 
 }
+
 
 /** Pagiasn contactos **/
 .navcolor{
