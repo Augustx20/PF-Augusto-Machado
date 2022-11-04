@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Augustx20/PreEntrega2-Machado.git"
+    "url": "git+https://github.com/Augustx20/PreEntrega-Machado.git"
   },
   "author": "Augusto Machado",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Augustx20/PreEntrega2-Machado/issues"
+    "url": "https://github.com/Augustx20/PreEntrega-Machado/issues"
   },
-  "homepage": "https://github.com/Augustx20/PreEntrega2-Machado#readme",
+  "homepage": "https://github.com/Augustx20/PreEntrega-Machado#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"

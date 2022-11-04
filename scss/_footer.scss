@@ -19,44 +19,46 @@
             text-align: center;
 
              h3{
-                font-size: 4vh;
+                font-size: map-get($texto, fontMeddium );
                 color: $color-estandar;
-                 word-spacing: 0.5vh;
-                letter-spacing: 0.4vh;
+                word-spacing: map-get($texto, letspacHigh );
+                letter-spacing: map-get($texto, letter-spacing );
                 font-family: $tipografia-secundario;
                 font-weight: bold;
             }
              p{
                 max-width: 500px;
                 margin: 10px auto;
-                line-height: 28px;
-                font-size: 14px;
+                font-size: map-get( $texto, fontSmall );
                 color: black;
             } 
         }
         
         .socials{
             text-align: center;
-            letter-spacing: 0.1vh;
+            letter-spacing: map-get($texto, letter-spacing );
             list-style-type:none;
             display: flex;
 
              li{
-                margin: 1vh;
-                margin: 1vh;
-                padding: 0.5vh;
-                border-radius: 4%;
-                background-color: $color-terciario;
-                
-                a{
-                    text-decoration: none;
-                    color: black;
-                }
-                
+                padding: 1vh;
+                button{
+                    border: map-get($boton, boder );
+                    border-radius: map-get($boton, radius );
+                    margin-bottom: map-get($boton, mg-bt );
+                    display: map-get($boton, display );
+                    text-transform: map-get($boton, text-transform );
+                    padding: map-get($boton, pad );
+                    &:hover{
+                        background-color: $color-estandar;
+                         color: $color-secundario;
+                         transition: .3s ease all;
+                    }
 
         }
 
     }
 
 
+}
 }

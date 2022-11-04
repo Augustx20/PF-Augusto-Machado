@@ -7,3 +7,26 @@ $color-letras-claros:#FEFBF6;
 
 $tipografia-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $tipografia-secundario: Alfa Slab One;
+
+$boton:(
+    border: 0.4vh solid $color-fondo-botones,
+    radius: 0.8vh,
+    mg-bt: 0.3rem,
+    display: inline-flex,
+    text-transform: uppercase,
+    pad: 0.3vh,
+);
+$texto:(
+    letter-spacing: 0.4vh,
+    tx-align: justify,
+    fontform: bold,
+    fontHigh: 12vh,
+    fontMeddium: 3.5vh,
+    fontSmall: 2vh,
+    letspacHigh: 1vh,
+    wordspace: 1.5vh,
+    fontSmallSmall: 1.6vh,
+    fontMeddiumMeddium: 4vh,
+
+)
+
