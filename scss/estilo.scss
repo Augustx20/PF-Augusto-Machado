@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import 'animate.css';
 
 
 *{
@@ -37,6 +38,12 @@
         font-weight: map-get($texto, fontform );
         text-decoration: none;
         cursor:cell;
+
+        &:hover{
+            animation: bounce; 
+            animation-duration: 1s;
+        }
+        
     }
         .boxN1__parrafo__p{
             color: $color-estandar;
@@ -66,17 +73,22 @@
                     img{
                         height: 22vh;
                         border-radius: 2%;
-                    }
+                        animation: fadeInLeftBig;
+                        animation-duration: 3s;                  
+                     }
                 } 
                 .block__cajaboxmedios__parte1__boxmedios2{
                     color: $color-letras;
-                    
 
                     h3{
                         font-family: $tipografia-secundario;
+                        animation: fadeInRight;
+                        animation-duration: 3s; 
                     }
                     p{
                         font-family: $tipografia-principal;
+                        animation: fadeInRight;
+                        animation-duration: 3s; 
                     }
                 }
                 
@@ -89,14 +101,19 @@
 
     h3{
         font-family: $tipografia-secundario;
-        
+        animation: fadeInRight;
+        animation-duration: 3s; 
     }
     p{
         font-family: $tipografia-principal;
+        animation: fadeInRight;
+        animation-duration: 3s; 
     }
     img{
         height: 22vh;
         border-radius: 2%;
+        animation: fadeInLeftBig;
+        animation-duration: 3s; 
     }
 
 }
@@ -167,6 +184,10 @@ h1{
     padding: 10vh;
         h2{
             font-family: $tipografia-secundario;
+            &:hover{
+                animation: wobble;
+                animation-duration: 1s; 
+            }
         }
         p{
             font-family: $tipografia-principal;
@@ -207,19 +228,41 @@ h1{
 
 .grilla_Cajan1{
     background-color: $color-secundario;
-
+    border-radius: map-get($boton, radius );
+   
     .card1{
         &:hover{
             transform: translateY(-10px);
             box-shadow: 0 12px 16px rgba(198,137,198,0.3);
             transition: 0.30s;
+            border-radius: map-get($boton, radius);
+            background-color: #F6C6EA;
+            transition: 1s;
+        }
+        img{
+            height: 40vh;
+            border-radius: map-get($boton, radius );
         }
 
+        h4{
+            letter-spacing:map-get($texto,  letspaceSmall );
+            font-family: $tipografia-principal;
+            font-size: map-get($texto, fontSmall );
+            color: map-get($texto, $color-letras );
+            text-align: center;
+            padding: 1vh;
+            font: map-get($texto, fontform );
+
+            
+        }
+        p{
+            letter-spacing:map-get($texto,  letspaceSmall );
+            font-family:$tipografia-principal;
+
+
+        }
     }
-    .col img{
-        height: 30vh;
-        
-    }
+     
     .boton{
         border: map-get($boton, boder );
         border-radius: map-get($boton, radius );
@@ -383,7 +426,7 @@ h1{
     color: #777
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 996px) {
     .file_manager .nav-tabs {
         padding-left: 0;
         padding-right: 0
@@ -391,7 +434,10 @@ h1{
     .file_manager .nav-tabs .nav-item {
         display: inline-block
     }
-}
+    
+    }
+
+
 
 .boxes {
     border: 0;
