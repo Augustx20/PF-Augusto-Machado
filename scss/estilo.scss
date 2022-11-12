@@ -426,7 +426,7 @@ h1{
     color: #777
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (min-width: 360px) and (max-width: 768px) {
     .file_manager .nav-tabs {
         padding-left: 0;
         padding-right: 0
@@ -434,7 +434,9 @@ h1{
     .file_manager .nav-tabs .nav-item {
         display: inline-block
     }
-    
+    .boxN1__h1{
+        color: black;
+    }
     }
 
 
